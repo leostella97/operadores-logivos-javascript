@@ -6,13 +6,13 @@ let num1 = 10
 let num2 = 2
 
 // AND
-let operAND = num1 == 10 && num2 == 2
+let operAND = (num1 == 10) && (num2 == 2)
 if (operAND){
     console.log ("num1 é igual a " + num1 + " e num2 é igual a " + num2)
 }
 
 // OR
-let operOR = num1 == 10 || num2 == 2
+let operOR = (num1 == 10) || (num2 == 2)
 if (operOR){
     console.log ("num1 é igual a " + num1 + " ou num2 é igual a " + num2)
 }
